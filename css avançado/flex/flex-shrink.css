@@ -29,3 +29,25 @@ main {
 .item-3 {
     flex-shrink: 2;
 }
+
+@media(max-whidth:680px) {
+    main{
+        width: 400px;
+    }
+    .item{
+        flex-basis: 150px;
+    }
+
+}
+
+@media (max-whidth:400px) {
+    main{
+        width: 200px;
+        gap: 8px;
+    }
+    .item{
+        flex-basis: 50px;
+        padding: 5px;
+        margin: 0px;
+    }
+}
