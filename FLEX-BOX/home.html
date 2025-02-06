@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Página com Flexbox</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+
+        <div class="logo">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/2/20/Adidas_Logo.svg" alt="Logo" />
+        </div>
+        <div class="marquee-container">
+            <span class="marquee" >Super Promoção mês de Fevereiro!!!</span>
+        </div>
+
+        <div class="buscar-site">
+            <input type="text" placeholder="Buscar...">
+            <button> IR </button>
+        </div>
+        <div class="icone-do-usuario" onclick="toggleMenu()">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                class="bi bi-person-circle" viewBox="0 0 16 16">
+                <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0" />
+                <path fill-rule="evenodd"
+                    d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1" />
+            </svg>
+        </div>
+
+        <div id="barra-menu">
+            <ul>
+                <li><a href="#">Perfil</a></li>
+                <li><a href="#">Configurações</a></li>
+                <li><a href="#">Sair</a></li>
+            </ul>
+        </div>
+
+    </header>
+    <!-- Navegação -->
+    <nav>
+        <ul>
+            <li><a href="#">Roupas</a></li>
+            <li><a href="#">Calçados</a></li>
+            <li><a href="#">Bolsas</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main -->
+    <main>
+        <div class="monstruario">
+            <div class="image-item"><img
+                    src="https://static.shoppingcalcado.com.br/public/uzesports/imagens/produtos/camiseta-masculina-adidas-essentials-preto-branco-850.png"
+                    alt="Imagem 1"></div>
+            <div class="image-item"><img
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpNO7GSHCJKIMuuAoCt8HINCaK6lU9Sj4G5A&s"
+                    alt="Imagem 2"></div>
+            <div class="image-item"><img
+                    src="https://assets.adidas.com/images/w_600,f_auto,q_auto/421756b633a84c3580a4ae8901801435_9366/TENIS_GRAND_COURT_2.0_Preto_GW9196_01_00_standard.jpg"
+                    alt="Imagem 3"></div>
+            <div class="image-item"><img
+                    src="https://static.fatimaesportes.com.br/public/fatimaesportes/imagens/produtos/bolsa-adidas-duffel-grande-essentials-651f11115ab05.jpg"
+                    alt="Imagem 5"></div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-img">
+            <a href="#"><img src="imagens/facebook.png" alt="Facebook"></a>
+            <a href="#"><img src="imagens/icons8-instagram-48.png" alt="Instagran"></a>
+            <a href="#"><img src="imagens/gmail.png" alt="E-mail"></a>
+        </div>
+    </footer>
+
+    <script src="home.js"></script>
+</body>
+
+</html>
