@@ -130,13 +130,39 @@ nav ul li a {
     font-size: 18px;
 }
 
+/*Filtros*/
+aside{
+    width: 100px;
+    height: 45px;
+    margin: 4px;
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    cursor: pointer;
+    outline: none;
+    border-radius: 2px;
+}
+aside .categoria, .cores, .preco{
+    border: 2px solid #444;
+    color: white;
+    background-color: #333;
+    
+    flex-direction: column;
+
+}
+
 /* Main */
 main {
     padding: 20px;
+    flex-direction: end;
+    height: 600px;
 }
 
 /* monstruario */
 .monstruario {
+    align-items: center;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     gap: 20px;
@@ -147,6 +173,7 @@ main {
     width: 100%;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+   
 }
 
 /* Footer */
