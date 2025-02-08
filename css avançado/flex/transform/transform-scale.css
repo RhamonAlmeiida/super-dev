@@ -1,0 +1,26 @@
+.scale-1{
+    background-color: #2ecc71;
+    transform: scale(1);
+    margin-right: 10px;
+}
+.scale-1-5{
+    background-color: #3498db;
+    transform: scale(1.5);
+}
+.scale-0-5{
+    background-color: #e74c3c;
+    transform: scale(0.5);/*50% do tamanho original*/
+}
+.scale-hover{
+    background-color: #9b59b6;
+}
+.scale-hover:hover{
+    transform: scale(4.2);
+    z-index: 99999999;
+}
+.scale-active{
+    background-color: #f39c12;
+}
+.scale-active:active{
+    transform: scale(0.8);
+}
